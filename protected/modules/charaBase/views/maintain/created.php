@@ -1,0 +1,1 @@
+<?php $this->redirect(array("view/char","ID"=>$model->cID)); ?>
