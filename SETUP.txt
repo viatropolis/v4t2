@@ -1,0 +1,13 @@
+easy setup. you need a mysql server and apache.
+
+1. upload the content of this folder to a webserver.
+2. make following folders writable:
+	/u
+	/assets
+	/protected/runtime
+3. create a mysql database called dragonsinn and import the file under protexted/db/mysql.sql
+4. open protected/config/main.php and go down till you find something like:
+	'db'=>array(
+and edit it.
+5. make sure the htaccess fie is configured right.
+6. open the index page and it should work just fine.
