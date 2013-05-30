@@ -175,7 +175,6 @@ input, input[type=password], input[type=text], select, textarea {
 .breadcrumbs a { color:gold; text-decoration:none; }
 .categoryHeader {margin-top: 50px;}
 .odd.sticky, .even.sticky {background:rgba(173,255,47, 0.3);}
-td {width:150px;}
 .warning {text-align:center;color:red;}
 fieldset {
 	padding-left: 5px;
