@@ -15,7 +15,7 @@ if(Yii::app()->user->role==2) {
 	echo CHtml::link("Create category",array("category/create"));
 	echo "</h4>";
 }
-echo "<br><br><br>";
+echo "<br>";
 foreach($categories as $c) {
 	echo '<h2 class="categoryHeader">'.$c->name.'</h2>';
 	echo "<h4>$c->desc</h4>";
@@ -38,7 +38,7 @@ foreach($categories as $c) {
 		echo "<thead><tr class=\"".$row."\">";
 		echo "<th class=\"desc\">Name / Description</th>";
 		echo "<th class=\"detail\">Details</th>";
-		if(Yii::app()->user->role==2) { echo "<th class=\"action\">Actions</th>"; }	
+		if(Yii::app()->user->role==2) { echo "<th class=\"actions\">Actions</th>"; }	
 		echo "</tr></thead>";
 		echo "<tbody>";
 		foreach($c->boards as $bid) {

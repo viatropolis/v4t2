@@ -144,7 +144,7 @@ input, input[type=password], input[type=text], select, textarea {
 #clearup { clear: both; padding-top:20px; }
 .clearup2 {clear:both;padding-top:2px;padding-bottom:2px;}
 #splitblock, .splitblock { width:100%; position:relative;}
-#splitblock #split { float:left; width: 49%; margin-left:3px; margin-right:3px; position:relative; }
+#splitblock #split { float:left; width: 39%; margin-left:77px; margin-right:93px; position:relative; }
 .allNormal{padding:0;margin:0;width:auto;height:auto;}
 .forum {
 	border-top:1px solid <?=$shadow?>;

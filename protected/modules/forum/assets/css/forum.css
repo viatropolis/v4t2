@@ -1,29 +1,39 @@
 /*
- * @package AJAX_Chat
- * @author Sebastian Tschan
- * @copyright (c) Sebastian Tschan
- * @license GNU Affero General Public License
- * @link https://blueimp.net/ajax/
- */
-
-
-/*
  * Forums
  */
 
+/* ----------------------------------------------------------------------- *|
+/* ------ 1. Forums ------------------------------------------------------ *|
+/* ----------------------------------------------------------------------- */
+
+.clear { clear: both; }
+
+.body { line-height: 10px; }
 .main_table {
-	font-size: 12px;
+	font-size: 13px;
 	width: 100%;
 	background: rgba(73, 92, 106, 0.9);
-	-webkit-box-shadow: 0px 2px 5px rgba(73, 92, 106, 0.9); 
-	-moz-box-shadow: 0px 2px 5px rgba(73, 92, 106, 0.9); 
-	box-shadow: 0px 2px 5px rgba(73, 92, 106, 0.9); 
-	-webkit-box-sizing: border-box; 
-	-moz-box-sizing: border-box; 
+	-webkit-box-shadow: 0px 2px 5px rgba(73, 92, 106, 0.9);
+	-moz-box-shadow: 0px 2px 5px rgba(73, 92, 106, 0.9);
+	box-shadow: 0px 2px 5px rgba(73, 92, 106, 0.9);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-}
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 
-.action {
-	float: right;
 }
-
+.tbody a { text-decoration: none; }
+.actions, .td_actions { float: right; margin-right: 10px; }
+.td_name, .desc { float: left; margin-left: 10px; }
+.desc, .detail, .actions { font-size: 16px; padding-top: 5px; padding-bottom: 5px; }
+.td_name, .td_details, .td_actions { padding-top: 5px; padding-bottom: 5px; }
+.board_name a, .board_topic a, .board_user a, .board_admin a{ color: #efefef; text-shadow: 0px 1px 1px rgba(0, 0, 0, 1.5); }
+.board_name a:hover, .board_topic a:hover, .board_user a:hover, .board_admin a:hover{ color: #005580; text-shadow: 0px 1px 1px rgba(0, 0, 0, 1.5); text-decoration: none; }
+.list-view { padding-top: 0px; }
+.detail { width: 700px; }
+.desc { width: 380px; }
+.categoryHeader, .h1, .h2, .desc, .detail, .actions { -webkit-font-smoothing: antialiased; text-shadow: 0px 1px 1px rgba(0, 0, 0, 1.5); }
+.categoryHeader { margin-top: 0px; font-size: 24px; line-height: 15px; color: #0088cc; }
+.h2 { font-size: 22pax; line-height: 5px; }
+.h1 { font-size: 30px; line-height: 30px; }

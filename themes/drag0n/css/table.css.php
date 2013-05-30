@@ -9,9 +9,6 @@ tbody {
 	border-color: grey;
 	color: white;
 }
-tbody a, tbody a:hover, tbody a:visited {
-	color: #efefef;
-}
 .odd {
 	background: rgba(84,84,84, 0,7);
 }
